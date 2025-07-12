@@ -23,7 +23,7 @@ public class DashBoardController {
 	
 	@GetMapping("/test")
 	public DashBoard getallCustomer(){
-		System.out.println("api calling");
+		System.out.println("api calling check me");
 		return new DashBoard("welcome to dashboard from spring",dataNameArr,dataArr);
 	}
 	
